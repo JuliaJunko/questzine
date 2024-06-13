@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="materia.css">
+    <title>Document</title>
+</head>
+<br>
+    <img src="img/macaco verde.png" class="mascote">
+
+    <h2>Selecione a</h2>
+    <h1>matéria</h1>
+
+    <br><select name="materia" id="materia" class="materia">
+        <option value="" disabled selected>Selecione</option>
+        <option value="Java script">Java Script</option>
+        <option value="Java">Java</option>
+        <option value="C#">C#</option>
+    </select></br>
+
+    <br><button class="avancar" onclick="avanca()">Avançar</button></br>
+
+
+    <script>
+        
+        function avanca(){
+            window.location.href = "pergunta.html";
+        }
+        
+    </script>
+</body>
+</html>

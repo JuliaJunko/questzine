@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="finalizarCad.css">
+    <title>Questzine</title>
+</head>
+<br>
+    <img src="img/macaco roxo.png" class="mascote">
+
+    <h2>Finalize o</h2>
+    <h1>cadastro</h1>
+
+    <br><label class="respostaC">Resposta Correta</label></br>
+    <br><input type="text" class="inputRespostaC"></br>
+
+    <label class="nivelDifLabel">Nível de dificuldade</label>
+    <br><select class="nivelDif">
+        <option value="" disabled selected>Selecione</option>
+        <option value="facil">Fácil</option>
+        <option value="medio">Médio</option>
+        <option value="dificil">Difícil</option>
+    </select></br>
+
+    <br><button class="btFinalizar" onclick="btFinalizar()">Finalizar</button></br>
+
+    <script>
+        function btFinalizar(){
+            window.location.href = "quizResposta.html";
+        }
+    </script>
+</body>
+</html>

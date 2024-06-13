@@ -1,0 +1,74 @@
+body{
+    background-image: url('img/fundo\ rosa.png');
+    background-size:cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mascote{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins-Regular.ttf') format('woff2');
+}
+h2{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 38px;
+    margin: 0;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+.pergunta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.inputPergunta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 0;
+    color: #101010;
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+    border-radius: 25px;
+}
+
+.adicionar{
+font-size: 15px;
+font-family:'Poppins' sans-serif;
+height: 40px;
+width: 250px;
+border-radius: 25px;
+background: #FFACE4;
+display: block;
+margin-top: 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+.adicionar:hover{
+background: #f692d5;
+}

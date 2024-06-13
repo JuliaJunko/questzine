@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="curso.css">
+    <title>Document</title>
+</head>
+<br>
+    <img src="img/macaco verde.png" class="mascote">
+
+    <h2>Selecione seu</h2>
+    <h1>Curso</h1>
+
+    <br><select name="curso" id="curso" class="curso">
+        <option value="" disabled selected>Selecione</option>
+        <option value="curso1">Curso 1</option>
+        <option value="curso2">Curso 2</option>
+        <option value="curso3">Curso 3</option>
+    </select></br>
+
+    <br><button class="avancar" onclick="avanca()">Avançar</button></br>
+
+
+    <script>
+        
+        function avanca(){
+            window.location.href = "materia.html";
+        }
+        
+    </script>
+</body>
+</html>

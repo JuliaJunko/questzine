@@ -1,0 +1,35 @@
+body{
+    background-color: #101010;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: 162px;
+    width: 360px;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins-Regular.ttf') format('woff2'), /* Formato WOFF2 */
+    /* Inclua mais formatos, se necessário */
+}
+
+.iniciar{
+    font-size: 20px;
+    font-family:'Poppins' sans-serif;
+    height: 50px;
+    width: 250px;
+    border-radius: 25px;
+    background: #FFACE4;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.iniciar:hover{
+    background: #f692d5;
+}
